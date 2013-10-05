@@ -1,0 +1,30 @@
+{
+	"name": "samba",
+	"version": "0.0.1",
+	"description": "Samba utility for Node.js",
+	"keywords": [
+		"samba"
+	],
+	"homepage": "https://github.com/cfsghost/node-samba",
+	"author": {
+		"name": "Fred Chien(錢逢祥)",
+		"email": "cfsghost@gmail.com",
+		"web": "http://www.mandice.com/"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:cfsghost/node-samba.git"
+	},
+	"directories": {
+		"tests": "tests"
+	},
+	"engines": {
+		"node": ">= 0.10.0"
+	},
+	"dependencies": {
+		"dbus": ">= 0.2.0",
+		"async": ">= 0.2.9"
+	},
+	"main": "./lib/samba.js"
+}
